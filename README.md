@@ -22,7 +22,7 @@ Ex: ```git checkout exercise/4.1```
     
 - Day 02: First Steps on CSS
     
-  - ##### Branch: ```exercise/3.2```
+  - <sup> Branch: ```exercise/3.2``` </sup>
     
 - Day 03: Selectors and Positioning
 - Day 04: Semantic HTML
