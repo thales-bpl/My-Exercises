@@ -18,16 +18,16 @@ Ex: ```git checkout exercise/4.1```
 
 - Day 01: Introduction to HTML and CSS: Page Structure
     
-  - ###### Branch: ```exercise/3.1```
+  - ##### Branch: ```exercise/3.1```
     
 - Day 02: First Steps on CSS
     
-  - ###### Branch: ```exercise/3.2```
+  - ##### Branch: ```exercise/3.2```
     
 - Day 03: Selectors and Positioning
 - Day 04: Semantic HTML
     
-  - ###### Branch: ```exercise/3.4```
+  - ##### Branch: ```exercise/3.4```
     
 - Day 05: Project Lessons Learned
     
