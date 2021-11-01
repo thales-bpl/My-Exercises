@@ -55,7 +55,7 @@ Section 05 - JS: DOM, Events and Storage
   Branch: exercise/5.3
 
   Day 04: Storage
-  Branch: exercise/5.4
+  Branch:
 
   Day 05: Fundamentals
 
@@ -77,7 +77,7 @@ Section 06 - HTML and CSS: Forms, Flexbox and Responsive
   Branch: exercise/6.1
 
   Day 02: Libraries JS and CSS Frameworks
-  Branch: exercise/6.2
+  Branch: 
 
   Day 03: Introduction to Flexbox
   Branch: exercise/6.3
