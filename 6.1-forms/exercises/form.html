@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+  <h1>Formulário de Currículos</h1>
+  <form action='' method="GET" enctype="multipart/form-data">
+    <fieldset>
+      <label for='full-name'>Nome:</label>
+      <input type='text' name="name" id='full-name' class='input' maxlength="40" required>
+      <br>
+      <label for='usermail'>E-mail:</label>
+      <input type='email' name='email' id='usermail' class='input' maxlength="50" required>
+      <br>
+      <label for='user-cpf'>CPF:</label>  <!-- porque ele não reconhece pontos e hifen no cpf? pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" -->
+      <input type='text' name='usercpf' id='user-cpf' class='input' maxlength="11" placeholder='apenas números' pattern="\d{11}" required>
+      <br>
+      <label for='user-address'>Endereço:</label>
+      <input type="text" name='useradress' id='user-address' class='input' maxlength="200" required>
+      <br>
+      <label for='input-state'>Selecione seu estado:</label>
+      <select name='estado' id='input-state' class='input'></select>
+      <br>
+      <label for='apartament'>Apartamento</label>
+      <input type='radio' id='apartament' class='input' name='housing' value ='apart'>
+      <label for='house'>Casa</label>
+      <input type='radio' id='house' class='input' name='housing' value='house'>
+    </fieldset>
+    <fieldset>Dados do seu último emprego<br>
+      <label for='abstract-cv'>Resumo do Currículo</label>
+      <textarea name ='abstract-cv' id='abstract-cv' class='abstract-style input' maxlength="1000" required></textarea>
+      <br>
+      <label for='job-position'>Cargo:</label>
+      <input type='text' id='job-position' class='input' name='job-position' maxlength="40" required>
+      <br>
+      <label for='job-description'>Descrição do cargo:</label>
+      <input type='text' id='job-description' class='input' name="job-description" maxlength="500" required>
+      <br>
+      <label for='job-initial-date'>Data de início:</label>
+      <input type="date" id="job-initial-date" class="input" name="job-initial-date" required>
+      <br>
+      <button type='submit' id='submit-button'>Enviar</button>
+    </fieldset>
+  </form>
+  
+  <script src="script.js"></script>
+</body>
+</html>

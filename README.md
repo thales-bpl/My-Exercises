@@ -55,7 +55,6 @@ Section 05 - JS: DOM, Events and Storage
   Branch: exercise/5.3
 
   Day 04: Storage
-  Branch: exercise/5.4
 
   Day 05: Fundamentals
 
