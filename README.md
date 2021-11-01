@@ -4,9 +4,7 @@
 
 To see exercise resolution: git checkout <exercise/section.day>
 
-```jsx
-Ex: git checkout exercise/4.1
-```
+Ex: ```jsx git checkout exercise/4.1 ```
 
 ---
 
@@ -20,7 +18,7 @@ Ex: git checkout exercise/4.1
 
 - Day 01: Introduction to HTML and CSS: Page Structure
     
-    Branch: exercise/3.1
+    Branch: ```jsx exercise/3.1```
     
 - Day 02: First Steps on CSS
     
