@@ -18,7 +18,7 @@ Ex: ```git checkout exercise/4.1```
 
 - Day 01: Introduction to HTML and CSS: Page Structure
     
-  - ##### Branch: ```exercise/3.1```
+  - <sub><sup>Branch: ```exercise/3.1```</sup></sub>
     
 - Day 02: First Steps on CSS
     
