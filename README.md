@@ -22,12 +22,12 @@ Ex: ```git checkout exercise/4.1```
     
 - Day 02: First Steps on CSS
     
-  - <sup> Branch: ```exercise/3.2``` </sup>
+  - <sub> Branch: ```exercise/3.2``` </sub>
     
 - Day 03: Selectors and Positioning
 - Day 04: Semantic HTML
     
-  - ##### Branch: ```exercise/3.4```
+  - #### <sub>Branch: ```exercise/3.4``` </sub>
     
 - Day 05: Project Lessons Learned
     
@@ -38,7 +38,7 @@ Ex: ```git checkout exercise/4.1```
 
 - Day 01: Introduction to JS
     
-  - Branch: ```exercise/4.1```
+  - ### Branch: ```exercise/4.1```
     
 - Day 02: Arrays and For Loop
     
