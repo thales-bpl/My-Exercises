@@ -1,0 +1,67 @@
+<!-- CSS Porperty: flex-basis -->
+<!-- Sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing -->
+<!-- Default Value: auto -->
+<!-- Syntax: specify width (em; px; auto), sizing keywords (fill; max-content; min-content; fit-content), content (based on flex item's content), global values (inherit; initial; revert; unset) -->
+<!-- Note: (flex-basis: auto) means 'look at my width or height property' --> 
+
+<!-- CSS Shortcut Property: flex -->
+<!-- Doc: https://developer.mozilla.org/en-US/docs/Web/CSS/flex -->
+<!-- flex-shrink, flex-grow and flex-basis are normally defined using the (flex) shorthand. flex: (flex-grow | flex-shrink | flex-basis) -->
+<!-- Syntax: initial (flex: 0 1 auto); auto (flex: 1 1 auto); none (flex: 0 0 auto); up to 3 values (numbers + valid value for width for <flex-basis>) -->
+<!-- Defaut Value: (0 | 1 | auto) -->
+
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEXBOX - BASIS</title>
+    <style>
+      .container {
+        display: flex;
+        height: 50px;
+        margin: auto;
+        width: 100%;
+      }
+
+      .box {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* Altere a propriedade flex-basis */
+        flex-basis: 500px;
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+
+      .one {
+        background-color: #FBD26A;
+        list-style: none;
+      }
+
+      .two {
+        background-color: #FAA488;
+        list-style: none;
+      }
+
+      .three {
+        background-color: #9069EF;
+        list-style: none;
+      }
+
+      .four {
+        background-color: #006472;
+        list-style: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <ul class="container">
+      <li class="box one">1</li>
+      <li class="box two">2</li>
+      <li class="box three">3</li>
+      <li class="box four">4</li>
+    </ul>
+  </body>
+</html>
