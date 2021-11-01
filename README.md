@@ -55,7 +55,7 @@ Section 05 - JS: DOM, Events and Storage
   Branch: exercise/5.3
 
   Day 04: Storage
-  Branch: exercise/5.4
+  Branch: 
 
   Day 05: Fundamentals
 
@@ -117,7 +117,7 @@ Section 08 - High Order Functions
   Branch: exercise/8.3
 
   Day 04: reduce
-  Branch: exercise/8.4
+  Branch: 
 
   Day 05: spread, rest, destructuring
   Branch: exercise/8.5
