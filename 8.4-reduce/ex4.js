@@ -61,7 +61,6 @@ const books = [
   },
 ];
 
-
 const expectedResult = {
   id: 1,
   name: 'As Crônicas de Gelo e Fogo',
