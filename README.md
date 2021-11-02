@@ -151,6 +151,9 @@ Ex: ```git checkout exercise/4.1```
   - Branch: exercise/8.3
     
 - Day 04: reduce
+
+  - Branch: exercise/8.4
+    
 - Day 05: spread, rest, destructuring
     
   - Branch: exercise/8.5
