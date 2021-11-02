@@ -18,76 +18,76 @@ Ex: ```git checkout exercise/4.1```
 
 - Day 01: Introduction to HTML and CSS: Page Structure
     
-  -- Branch: ```exercise/3.1```
+  - Branch: ```exercise/3.1```
     
 - Day 02: First Steps on CSS
     
-  -- Branch: ```exercise/3.2```
+  - Branch: ```exercise/3.2```
     
 - Day 03: Selectors and Positioning
 - Day 04: Semantic HTML
     
-  -- Branch: ```exercise/3.4```
+  - Branch: ```exercise/3.4```
     
 - Day 05: Project Lessons Learned
     
-  -- Repo:
+  - Repo:
     
 
 **Section 04 - Introduction to JS and programming logic**
 
 - Day 01: Introduction to JS
     
-  -- Branch: ```exercise/4.1```
+  - Branch: ```exercise/4.1```
     
 - Day 02: Arrays and For Loop
     
-  -- Branch: ```exercise/4.2```
+  - Branch: ```exercise/4.2```
     
 - Day 03: Logic and Algorithms
     
-  -- Branch: ```exercise/4.3```
+  - Branch: ```exercise/4.3```
     
 - Day 04: Objects and Functions
     
-  -- Branch: ```exercise/4.4```
+  - Branch: ```exercise/4.4```
     
 - Day 05: Project Playground Functions
     
-  -- Repo:
+  - Repo:
     
 
 **Section 05 - JS: DOM, Events and Storage**
 
 - Day 01: DOM and Selectors
     
-  -- Branch: ```exercise/5.1```
+  - Branch: ```exercise/5.1```
     
 - Day 02: Elements
     
-  -- Branch: ```exercise/5.2```
+  - Branch: ```exercise/5.2```
     
 - Day 03: Events
     
-  -- Branch: ```exercise/5.3```
+  - Branch: ```exercise/5.3```
     
 - Day 04: Storage
 - Day 05: Fundamentals
 - Day 06: Project Pixel Art
     
-  -- Repo:
+  - Repo:
     
 - Day 07: Project To Do List
     
-  -- Repo:
+  - Repo:
     
 - Day 08: Project Meme Generator
     
-  -- Repo:
+  - Repo:
     
 - Day 09: Project Color Guess
     
-  -- Repo:
+  - Repo:
     
 
 **Section 06 - HTML and CSS: Forms, Flexbox and Responsive**
