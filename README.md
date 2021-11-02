@@ -10,35 +10,35 @@ Ex: ```git checkout exercise/4.1```
 
 ### Module 1: Fundamentals
 
-**Section 01 - Unix and Bash**
+#### **Section 01 - Unix and Bash**
 
-**Section 02 - Git, GitHub and Internet**
+#### **Section 02 - Git, GitHub and Internet**
 
-**Section 03 - Introduction to HTML and CSS**
+#### **Section 03 - Introduction to HTML and CSS**
 
 - Day 01: Introduction to HTML and CSS: Page Structure
     
-  - <sub><sup>Branch: ```exercise/3.1```</sup></sub>
+  - ###### Branch: ```exercise/3.1```
     
 - Day 02: First Steps on CSS
     
-  - <sub> Branch: ```exercise/3.2``` </sub>
+  - ###### Branch: ```exercise/3.2```
     
 - Day 03: Selectors and Positioning
 - Day 04: Semantic HTML
     
-  - #### <sub>Branch: ```exercise/3.4``` </sub>
+  - ###### Branch: ```exercise/3.4```
     
 - Day 05: Project Lessons Learned
     
-  - Repo:
+  - ###### Repo:
     
 
-**Section 04 - Introduction to JS and programming logic**
+#### **Section 04 - Introduction to JS and programming logic**
 
 - Day 01: Introduction to JS
     
-  - ### Branch: ```exercise/4.1```
+  - Branch: ```exercise/4.1```
     
 - Day 02: Arrays and For Loop
     
