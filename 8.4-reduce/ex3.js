@@ -61,4 +61,17 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const expectedResult = 43;
+
+const mapper = (acc, cur) => {
+  const authorAge = cur.releaseYear - cur.author.birthYear;
+  return acc + authorAge;
+}
+
+function averageAge(array) {
+  const numberOfBooks = array.length;
+  return array.reduce(mapper, 0)/numberOfBooks;
+}
+
+console.log(expectedResult === averageAge(books));
+console.log(averageAge(books));
