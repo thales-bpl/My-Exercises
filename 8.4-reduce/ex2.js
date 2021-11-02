@@ -63,13 +63,13 @@ const books = [
 
 const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
 
-const mapper = (acc, cur, index, array) => {
+const reducer = (acc, cur, index, array) => {
   if (index === array.length -1) return `${acc} ${cur.author.name}.`
   return `${acc} ${cur.author.name},`
 }
 
 function reduceNames(arrayBooks) {
-  return arrayBooks.reduce(mapper, '').trim();
+  return arrayBooks.reduce(reducer, '').trim();
 }
 
 console.log(expectedResult === reduceNames(books)); // verifing solution

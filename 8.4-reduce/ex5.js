@@ -6,15 +6,15 @@ const names = [
 
 const expectedResult = 20;
 
-const mapper = (acc, cur) => {
+const reducer = (acc, cur) => {
   if (cur === 'a' || cur === 'A') return acc + 1;
   return acc;
 }
 
-const arrayMapper = (acc, cur) => acc + cur.split('').reduce(mapper, 0);
+const arrayReducer = (acc, cur) => acc + cur.split('').reduce(reducer, 0);
 
 function containsA(array) {
-  return array.reduce(arrayMapper, 0);
+  return array.reduce(arrayReducer, 0);
 }
 
 console.log(containsA(names));

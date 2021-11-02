@@ -72,14 +72,14 @@ const expectedResult = {
   releaseYear: 1991,
 };
 
-const mapper = (acc, cur) => {
+const reducer = (acc, cur) => {
   if (cur.name.length > acc.name.length) return cur;
   return acc;
 }
 
 function longestNamedBook(array) {
-  return array.reduce(mapper);
+  return array.reduce(reducer);
 }
 
-console.log(expectedResult === longestNamedBook(books)); // why returning false?
 console.log(longestNamedBook(books));
+console.log(expectedResult === longestNamedBook(books)); // why returning false?

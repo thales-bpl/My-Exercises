@@ -4,8 +4,12 @@ const arrays = [
   [4, 5, 6],
 ];
 
+const reducer = (acc, cur) => {
+  return acc.concat(cur)
+}
+
 function flatten(someArrays) {
-  return someArrays.reduce((acc, cur) => acc.concat(cur),[])
+  return someArrays.reduce(reducer,[])
 }
 
 console.log(flatten(arrays));
