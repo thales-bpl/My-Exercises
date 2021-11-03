@@ -153,7 +153,7 @@ Ex: ```git checkout exercise/4.1```
 - Day 04: reduce
 
   - Branch: exercise/8.4
-    
+
 - Day 05: spread, rest, destructuring
     
   - Branch: exercise/8.5
@@ -235,6 +235,9 @@ Ex: ```git checkout exercise/4.1```
 
 - Day 01: Introduction to Redux: Global State
 - Day 02: React-Redux
+
+  - Fork: https://github.com/thales-bpl/exercise-react-with-redux-intro
+
 - Day 03: React-Redux part 2
 - Day 04: Async Actions with React-Redux
 - Day 05: Tests on React-Redux
@@ -255,4 +258,4 @@ Ex: ```git checkout exercise/4.1```
 - Day 01: Context API
 - Day 02: React Hooks - useState and useContext
 - Day 03: React Hooks: useEffect and custom Hooks
-- Day 03: Project StarWars Datatable
+- Day 04: Project StarWars Datatable
