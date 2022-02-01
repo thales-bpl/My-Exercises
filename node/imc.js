@@ -10,9 +10,11 @@ const imcResult = (weight, heigth) => {
   if (imc > 40) return `IMC: ${imc}. Status: Obesidade grau III ou IV`
 }
 
-const weight = readline.question('Quanto você pesa em kilos?')
-const heigth = readline.questionFloat('Qual sua altura em metros?')
+const main = () => {
+  const weight = readline.question('Quanto você pesa em kilos?')
+  const heigth = readline.questionFloat('Qual sua altura em metros?')
+  
+  console.log(imcResult(weight, heigth));
+}
 
-console.log(imcResult(weight, heigth));
-
-module.exports = imcResult;
+module.exports = main;

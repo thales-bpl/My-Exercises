@@ -1,7 +1,13 @@
 const readline = require('readline-sync');
-/* const imc = require('./imc');
+const imcMain = require('./imc');
 const avgSpeed = require('./velocidade');
-const bingo = require('./sorteio'); */
+const bingo = require('./sorteio');
+
+const scriptCatalog = (answer) => {
+  if (answer === '1') return imcMain();
+  if (answer === '2') return `Sua velocidade média foi de ${avgSpeed()} m/s`;
+  if (answer === '3') return bingo();
+}
 
 console.log(`Nosso catálogo de scripts:
   Digite 1 para calcular seu IMC 
@@ -11,11 +17,4 @@ console.log(`Nosso catálogo de scripts:
 
 const scripts = readline.question('Qual dos scripts você gostaria de rodar? ')
 
-const scriptCatalog = (answer) => {
-  if (answer === 1) return 'option 1'
-  if (answer === 2) return 'option 2'
-  if (answer === 3) return 'option 3'
-}
-
-console.log(scriptCatalog(scripts));
 scriptCatalog(scripts);

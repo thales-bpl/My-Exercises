@@ -6,8 +6,16 @@ const bingo = (guess) => {
   else return `Opa, não foi dessa vez. O número era ${luckyNumber}`
 };
 
-const userGuess = readline.question('Palpite um número, de 1 a 10! ');
+const arrayTrue = ['sim', 's', 'yes', 'y']
 
-console.log(bingo(userGuess));
+const main = () => {
+  const userGuess = readline.question('Palpite um número, de 1 a 10! ');
 
-module.exports = bingo;
+  console.log(bingo(userGuess));
+
+  const playAgain = readline.question('Deseja jogar novamente? ');
+  if (arrayTrue.some((answer) => answer === playAgain)) main();
+}
+
+module.exports = main;
+
