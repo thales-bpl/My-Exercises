@@ -1,6 +1,6 @@
 # Trybe Exercises
 
-## This is a- repository for my exercises at Trybe Course.
+## This is a repository for my exercises at Trybe Course.
 
 To see exercise resolution: git checkout <exercise/section.day>
 
