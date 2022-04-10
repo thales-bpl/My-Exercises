@@ -269,3 +269,7 @@ Ex: ```git checkout exercise/4.1```
 
 - Day 01: Node.js - A JavaScript Engine
 - Day 02: Node.js Async
+
+**Section 26 - TypeScript**
+
+- Day 01: Introduction to TypeScript
