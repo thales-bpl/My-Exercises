@@ -1,0 +1,25 @@
+var rainbow;
+(function (rainbow) {
+    rainbow["VIOLET"] = "VIOLET";
+    rainbow["BLUE"] = "BLUE";
+    rainbow["CYAN"] = "CYAN";
+    rainbow["GREEN"] = "GREEN";
+    rainbow["YELLOW"] = "YELLOW";
+    rainbow["ORANGE"] = "ORANGE";
+    rainbow["RED"] = "RED";
+})(rainbow || (rainbow = {}));
+var violet = rainbow.VIOLET;
+var blue = rainbow["BLUE"];
+var cyan = rainbow.CYAN;
+var green = rainbow.GREEN;
+var yellow = rainbow["YELLOW"];
+var orange = rainbow["ORANGE"];
+var red = rainbow.RED;
+console.log('MARVEL THE LIGHT');
+console.log(violet);
+console.log(blue);
+console.log(cyan);
+console.log(green);
+console.log(yellow);
+console.log(orange);
+console.log(red);
