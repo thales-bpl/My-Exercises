@@ -273,3 +273,6 @@ Ex: ```git checkout exercise/4.1```
 **Section 26 - TypeScript**
 
 - Day 01: Introduction to TypeScript
+    
+  - Branch: exercise/26.1
+    
