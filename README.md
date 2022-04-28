@@ -276,3 +276,6 @@ Ex: ```git checkout exercise/4.1```
     
   - Branch: exercise/26.1
     
+- Day 02: Static Typing and Generics
+    
+  - Branch: exercise/26.2
