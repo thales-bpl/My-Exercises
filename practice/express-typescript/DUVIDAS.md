@@ -1,4 +1,4 @@
-1. ./models/book.model.ts - L20:
+1. ./models/book.model.ts - L28:
   Qual é a função do <ResultSetHeader> nessa linha? Porque não precisa dele na L13?
 
 2. ./controllers/book.controller.ts:
