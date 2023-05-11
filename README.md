@@ -280,6 +280,18 @@ Ex: ```git checkout exercise/4.1```
     
   - Branch: exercise/26.2
 
-- Day 02: Express and Typescript
+- Day 03: Express and Typescript
     
   - Branch: exercise/26.3
+
+
+---
+
+### Module 4: Computer Science
+
+**Section 32 - Python**
+
+- Day 01: Introduction to Python
+    
+  - Branch: exercise/32.1
+    
