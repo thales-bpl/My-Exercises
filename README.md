@@ -279,3 +279,7 @@ Ex: ```git checkout exercise/4.1```
 - Day 02: Static Typing and Generics
     
   - Branch: exercise/26.2
+
+- Day 02: Express and Typescript
+    
+  - Branch: exercise/26.3
