@@ -1,5 +1,4 @@
 from numbers import Number
-from math import ceil
 
 
 # Exercício 1: Dada uma lista, descubra o menor elemento.
@@ -9,14 +8,13 @@ def returnLower(number: list[Number]):
 
 # Exercício 2: Faça um programa que, dado um valor n qualquer, tal que n > 1, imprima na tela um triângulo retângulo com n asteriscos de base.
 def createTriangleN(size: int):
-  if size > 1:
-    counter = 1
-    while counter <= size:
-      print(counter * '*')
-      counter += 1
-  else:
+  if size < 1:
     print('invalid size.')
 
+  counter = 1
+  while counter <= size:
+    print(counter * '*')
+    counter += 1
 
 # Exercício 3: Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
 def sumAllDigitsFromOne(number: Number):
@@ -32,15 +30,15 @@ def sumAllDigitsFromOne(number: Number):
 alcoholInfo = {
   'code': 'A',
   'literPrice': 1.90,
-  'alcoholSmallDiscount': 0.97,
-  'alcoholBigDiscount': 0.95
+  'smallDiscount': 0.97,
+  'bigDiscount': 0.95
 }
 
 gasInfo = {
   'code': 'G',
   'literPrice': 2.50,
-  'gasSmallDiscount': 0.96,
-  'gasBigDiscount': 0.94
+  'smallDiscount': 0.96,
+  'bigDiscount': 0.94
 }
 
 discount = {
