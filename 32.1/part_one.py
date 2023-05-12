@@ -25,7 +25,7 @@ def createSquareN(size: int):
       print(size * '*')
       counter += 1
   else:
-    print ('Invalid size. try using a positive integer number')
+    print ('Invalid size. Try using a positive integer number')
 
 
 # Exercício 4: Crie uma função que receba uma lista de nomes e retorne o nome com a maior quantidade de caracteres.

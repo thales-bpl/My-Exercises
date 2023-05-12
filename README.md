@@ -293,5 +293,5 @@ Ex: ```git checkout exercise/4.1```
 
 - Day 01: Introduction to Python
     
-  - Branch: exercise/32.1
+  - Branch: exercises/32.1
     
