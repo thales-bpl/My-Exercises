@@ -8,8 +8,9 @@ def returnLower(number: list[Number]):
 
 # Exercício 2: Faça um programa que, dado um valor n qualquer, tal que n > 1, imprima na tela um triângulo retângulo com n asteriscos de base.
 def createTriangleN(size: int):
-  if size < 1:
-    print('invalid size.')
+  if size < 1 or size > 5:
+    print('Invalid triangle size. Please use positive and integer numbers up to 5')
+    return
 
   counter = 1
   while counter <= size:
@@ -67,8 +68,8 @@ def gasPrices(liters: Number, gasType: str):
 
 
 print(f'ex 1 list [5, 9, 3, 19, 70, 8, 100, 2, 35, 27]: {returnLower([5, 9, 3, 19, 70, 8, 100, 2, 35, 27])}')
-print('ex 2 - createTriangle(4):')
-createTriangleN(4)
+print('ex 2 - createTriangle(5):')
+createTriangleN(5)
 print(f'ex 3 - sumAllDigitsFromOne(5): {sumAllDigitsFromOne(5)}')
 print(f'ex 4 - gasPrices(10, "A"): {gasPrices(10, "A")}')
 print(f'ex 4 - gasPrices(20, "G"): {gasPrices(20, "G")}')

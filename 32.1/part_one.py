@@ -19,13 +19,13 @@ def returnMeanAlt(numberList: list[Number]):
 
 # Exercício 3: Faça um programa que, dado um valor n qualquer, tal que n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n.
 def createSquareN(size: int):
-  if size > 1:
-    counter = 1
-    while counter <= size:
-      print(size * '*')
-      counter += 1
-  else:
+  if size < 1:
     print ('Invalid size. Try using a positive integer number')
+    return
+  counter = 1
+  while counter <= size:
+    print(size * '*')
+    counter += 1
 
 
 # Exercício 4: Crie uma função que receba uma lista de nomes e retorne o nome com a maior quantidade de caracteres.
