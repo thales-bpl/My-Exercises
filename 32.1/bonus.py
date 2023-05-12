@@ -15,7 +15,7 @@ def createTriangleN(size: int):
       print(counter * '*')
       counter += 1
   else:
-    print('invalid size. ')
+    print('invalid size.')
 
 
 # Exercício 3: Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
@@ -28,6 +28,7 @@ def sumAllDigitsFromOne(number: Number):
   return sum
 
 
+# Exercício 4: Escreva uma função que receba o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A - álcool, G - gasolina), e retorne o valor a ser pago pelo cliente
 alcoholInfo = {
   'code': 'A',
   'literPrice': 1.90,
@@ -50,10 +51,9 @@ discount = {
   'gasBig': 0.94
 }
 
-# Exercício 4: Escreva uma função que receba o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A - álcool, G - gasolina), e retorne o valor a ser pago pelo cliente
 def gasPrices(liters: Number, gasType: str):
   if liters <= 0 or (gasType != alcoholInfo['code'] and gasType != gasInfo['code']):
-    return 'Sorry, we can only sell positive Liters of either Gasoline(G) or Alcohol (A)'
+    return 'Sorry, we can only sell positive amount of liters of either Gasoline(G) or Alcohol(A).'
   if gasType == alcoholInfo['code']:
     partialPrice = liters * alcoholInfo['literPrice']
     if liters < discount['threshold']:
